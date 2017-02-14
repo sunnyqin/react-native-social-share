@@ -2,7 +2,7 @@
  * @providesModule react-native-social-share
  */
 
-var KDSocialShare = require('react-native').NativeModules.KDSocialShare;
+import { KDSocialShare } from 'NativeModules'
 
 module.exports = {
   shareOnTwitter: function(params, callback) {
